@@ -1,6 +1,6 @@
-package dev.sugarek.movies.repository;
+package dev.sugarek.movies.repositories;
 
-import dev.sugarek.movies.model.Movie;
+import dev.sugarek.movies.entities.Movie;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

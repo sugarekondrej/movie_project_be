@@ -1,9 +1,9 @@
-package dev.sugarek.movies.service;
+package dev.sugarek.movies.services;
 
 import dev.sugarek.movies.dto.MovieCreate;
 import dev.sugarek.movies.dto.MovieUpdate;
-import dev.sugarek.movies.model.Movie;
-import dev.sugarek.movies.repository.MovieRepository;
+import dev.sugarek.movies.entities.Movie;
+import dev.sugarek.movies.repositories.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

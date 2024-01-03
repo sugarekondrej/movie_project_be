@@ -1,7 +1,7 @@
-package dev.sugarek.movies.controller;
+package dev.sugarek.movies.controllers;
 
-import dev.sugarek.movies.model.Rating;
-import dev.sugarek.movies.service.RatingService;
+import dev.sugarek.movies.entities.Rating;
+import dev.sugarek.movies.services.RatingService;
 import dev.sugarek.movies.dto.RatingCreate;
 import dev.sugarek.movies.dto.RatingUpdate;
 import org.bson.types.ObjectId;

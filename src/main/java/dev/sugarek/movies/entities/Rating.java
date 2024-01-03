@@ -1,4 +1,4 @@
-package dev.sugarek.movies.model;
+package dev.sugarek.movies.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,18 +7,18 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "reviews")
+@Document(collection = "movies")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Review {
+public class Rating {
 
     @Id
     private ObjectId id;
 
-    private String body;
+    private Double ratingValue;
 
-    public Review(String body) {
-        this.body = body;
+    public Rating(Double ratingValue) {
+        this.ratingValue = ratingValue;
     }
 }

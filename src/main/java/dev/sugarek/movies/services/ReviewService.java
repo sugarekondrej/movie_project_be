@@ -1,8 +1,8 @@
-package dev.sugarek.movies.service;
+package dev.sugarek.movies.services;
 
-import dev.sugarek.movies.model.Movie;
-import dev.sugarek.movies.model.Review;
-import dev.sugarek.movies.repository.ReviewRepository;
+import dev.sugarek.movies.entities.Movie;
+import dev.sugarek.movies.entities.Review;
+import dev.sugarek.movies.repositories.ReviewRepository;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;

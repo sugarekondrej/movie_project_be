@@ -1,7 +1,5 @@
-package dev.sugarek.movies.model;
+package dev.sugarek.movies.entities;
 
-import dev.sugarek.movies.model.Rating;
-import dev.sugarek.movies.model.Review;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

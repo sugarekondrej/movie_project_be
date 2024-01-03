@@ -1,9 +1,9 @@
-package dev.sugarek.movies.controller;
+package dev.sugarek.movies.controllers;
 
 import dev.sugarek.movies.dto.MovieCreate;
 import dev.sugarek.movies.dto.MovieUpdate;
-import dev.sugarek.movies.model.Movie;
-import dev.sugarek.movies.service.MovieService;
+import dev.sugarek.movies.entities.Movie;
+import dev.sugarek.movies.services.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

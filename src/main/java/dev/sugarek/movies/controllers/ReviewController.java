@@ -1,8 +1,8 @@
-package dev.sugarek.movies.controller;
+package dev.sugarek.movies.controllers;
 
 import dev.sugarek.movies.dto.ReviewCreate;
-import dev.sugarek.movies.model.Review;
-import dev.sugarek.movies.service.ReviewService;
+import dev.sugarek.movies.entities.Review;
+import dev.sugarek.movies.services.ReviewService;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
